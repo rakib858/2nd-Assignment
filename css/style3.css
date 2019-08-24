@@ -1,0 +1,72 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/* Body CSS */
+ body {
+ 	font-family: 'Lobster', cursive;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container */
+.container {
+	width: 550px;
+    margin: 10% auto;
+    background-color: yellow;
+    height: 450px;
+} 
+/* Login Section */
+.login-section {
+
+	background-color: darkturquoise;
+
+	padding: 40px;
+}
+/* Login Section Image */
+.login-section img {
+    margin: 0px auto;
+    display: block;
+}
+/* Login Section Heading */
+.login-section h3 {
+	
+    text-align: center;
+
+	color: #fff;
+
+	font-size: 35px;
+
+	text-transform: capitalize;
+	}
+/* Form Control */
+.form-control{
+
+	width: 97%;
+
+	height: 25px;
+
+	padding: 5px;
+
+	margin-bottom: 10px;
+	font-size: 20px;
+	}
+/* Button */
+.btn{
+
+	margin: 0px auto;
+    display: block;
+    background: darkorange;
+    padding: 6px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.8s ease;
+	}
+
+/* Button Hover */
+.btn:hover {
+		box-shadow: 1px 3px 6px #fff;
+		cursor:pointer;
+
+	}
